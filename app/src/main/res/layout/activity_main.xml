@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="@drawable/my_bg">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="264dp"
+            android:src="@drawable/logo_eat_it" />
+
+        <TextView
+            android:id="@+id/txtSlogan"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingExtra="2dp"
+            android:text="We transport products to customers as quickly as our ex betrays"
+            android:textColor="#ffffff"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+     <!--   <Button
+            android:id="@+id/btnSignUp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="53dp"
+            android:text="Sign Up"
+            android:background="@color/btnSignUp"
+            android:textColor="@android:color/white"
+            android:layout_margin="8dp">
+
+        </Button>  -->
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="53dp"
+            android:background="@color/btnSignActive"
+            android:text="Sign In"
+            android:textColor="@android:color/white"
+            android:layout_margin="8dp">
+
+        </Button>
+
+    </LinearLayout>
+</RelativeLayout>
